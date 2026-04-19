@@ -35,9 +35,10 @@ Nova is a voice-powered AI assistant built with Python. She wakes up when you ca
 
 2. Install dependencies
    ```bash
-   pip install speechrecognition pyttsx3 pyaudio
+   pip install speechrecognition pyttsx3 pyautogui pywhatkit
+   pip install pipwin
+   pipwin install pyaudio
    ```
-
 3. Run Nova
    ```bash
    python nova.py
